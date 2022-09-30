@@ -1,0 +1,223 @@
+.fondodash img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.bodydash{
+        width: 100%;
+}
+
+.fondoAzul img{
+    width: 110%;
+    height: 40vh;
+    position: absolute;
+    margin-top: -5%;
+    float: left;
+}
+
+.menuL1{
+    background-size: 130%;
+    background-position: center;
+    color: #FFFEFC;
+    height: 15rem;
+    width: 20%;
+    position: absolute;
+    margin-top: -49%;
+}
+
+.Hoteliahorizontalblnaco img{
+    width: 50%;
+    height: 9rem;
+    margin-top: 3rem;
+    margin-left: 6rem;
+    position: absolute;
+}
+
+.Textodash{
+    position: absolute;
+    float: right;
+    margin: 2rem;
+    margin-left: 1rem;
+    margin-top: 14rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menuL2{
+    background-color: #262830;
+    color: #FFFEFC;
+    width: 22%;
+    height: 64vh;
+    display: inline-block;
+    text-align: left;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    margin-top: -38rem;
+    position: absolute;
+}
+
+.menuL2 p:hover{
+   background: #2081d6;
+   height: 2.5rem;
+   width: 80%;
+}
+
+.opcionesD{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.opcionesD i{
+    font-size: 1.5rem;
+}
+
+.FormD{
+    background-color: #fffefcc7;
+    width: 70%;
+    height: 80vh;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin-left: 30rem;
+    position: absolute;
+    margin-top: -40%;
+}
+
+.persona3Respons{
+    display: none;
+}
+
+.titulodash{
+    margin: 15px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+}
+
+.caja1D{
+    margin: 1rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.btnD{
+    height: 4rem;
+    background-color: #262830;
+    color: #FFFEFC;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    width: 10rem;
+    border: #262830;
+}
+
+.formDash{
+    display: flex;
+}
+
+.dashAzulcaja i{
+    color: #FFFEFC;
+    font-size: 1.5rem;
+    margin-left: 25px;  
+}
+
+.dashAzulcaja{
+    width: 12%;
+    height: 2rem;
+    background-color: #2081d6;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.caja1Dash{
+    color: #000;
+    text-align: left;
+    align-items: center;
+    width: 18rem;
+    height: 20rem;
+    padding: 2rem;
+    align-content: center;
+    position: absolute;
+    margin-top: -40rem;
+    margin-left: 45rem;
+}
+
+.TdD{
+    color: #000;
+}
+
+.TdDCon{
+    color: #000;
+    margin-top: 5rem;
+}
+
+.cajasexodash{
+    display: flex;
+}
+
+
+.caja2dash{
+    color: #000;
+    text-align: left;
+    align-items: center;
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+    position: absolute;
+    margin-left: 75rem;
+    margin-top: -40rem;
+}
+
+
+.inputDash{
+    border-radius: 0.2rem;
+    height: 1.5rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.btn2D{
+    background-color: #262830;
+    width: 55%;
+    height: 2rem;
+    color: #FFFEFC;
+    border: #262830;
+    border-radius: 2px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size: 1rem;
+}
+
+.inputFR{
+    border-radius: 0.2rem;
+    height: 1.5rem;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.opD{
+    margin-top: 6.3rem;
+    background-color: #fffefc0e;
+    height: 2.5rem;
+    width: 19rem;
+    float: left;
+    margin-left: 1rem;
+}
+
+.opD i{
+
+    margin-left: 2rem;
+    margin-top: 5px;
+}
+
+.enlaceDash{
+    margin-left: 1rem;
+    margin-top: 10rem;
+    text-align: left;
+    text-decoration: none;
+    color: #FFFEFC;
+    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
