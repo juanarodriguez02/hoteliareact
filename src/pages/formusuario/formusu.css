@@ -1,0 +1,108 @@
+/*==========ESTILOS FORMULARIO REGISTRO USUARIOS==========*/
+
+.bodyformreu{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.contepadre{ 
+    margin: auto;
+    display: flex;
+    position: absolute;
+}
+
+.conte1{
+    float: left;
+    position: relative;
+    height: 625px;
+    width: 320px;
+    background-color: #00325eae;
+    justify-content: center;
+    text-align: center;
+    color: var(--blanco);
+    justify-content: left;
+}
+
+.conte1 img{
+    margin-top: 200px;
+    width: 250px;
+}
+
+.conte1 h2{
+    padding: 20px;
+}
+
+.conte2{
+    float: right;
+    position: relative;
+    margin: 20px 35px;
+    border-radius: 4px;
+    padding: 30px;
+    height: 510px;
+    width: 900px;
+    background-color: rgba(231, 229, 229, 0.877);
+}
+
+.conte2 h1{
+    text-align: center;
+}
+
+.conte3{
+    position: relative;
+    display: grid;
+    margin: auto;
+    width: 900px;
+    grid-template-columns: 50% 50%;
+}
+
+.conte3 input {
+    font-size: 10px;
+    width: 230px;
+    outline: none;
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.conte3 select{
+    width: 230px;
+    outline: none;
+    border:none;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.camposform{
+    padding: 9px;
+}
+
+.camposformg{
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    padding: 20px;
+}
+
+.conte4{
+    margin: 20px;
+    margin-left: 250px;
+    display:block;
+}
+
+.conte4 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.botonform{
+    background: var(--negro2);
+    color: var(--blanco);
+    font-size: 18px;
+    padding: 2px 10px;
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin: 0px auto;
+}
