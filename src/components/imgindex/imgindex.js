@@ -1,4 +1,5 @@
 import imagen from './slide1.jpg'
+import './imgindex.css'
 
 function Imagenindex() {
     return (

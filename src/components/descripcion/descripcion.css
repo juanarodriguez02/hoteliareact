@@ -1,0 +1,13 @@
+.contedesc{
+    width: 850px;
+    margin: 30px auto;
+    padding: 20px 20px;
+    text-align: left;
+}
+  
+.contedesc img{
+    width: 10rem;
+    border-radius: 10px;
+    float: right;
+    margin-left: 3rem;
+}

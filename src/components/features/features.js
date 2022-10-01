@@ -1,8 +1,8 @@
 import fondofeatures from './bg-features.png';
+import './features.css'
 
 function Feature() {
-    return (
-        <>    
+    return ( 
         <div class="features">
 
         <img src={fondofeatures}/>
@@ -37,7 +37,6 @@ function Feature() {
                 </div>
             </div>
         </div>
-        </>
     );
 }
 

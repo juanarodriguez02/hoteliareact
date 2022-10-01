@@ -1,3 +1,4 @@
+import './mapa.css'
 
 function Mapa() {
     return (

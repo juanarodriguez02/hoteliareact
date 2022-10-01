@@ -37,10 +37,10 @@
 .conte2{
     float: right;
     position: relative;
-    margin: 20px 35px;
+    margin: 10px 35px;
     border-radius: 4px;
     padding: 30px;
-    height: 510px;
+    height: 605px;
     width: 900px;
     background-color: rgba(231, 229, 229, 0.877);
 }
@@ -53,7 +53,7 @@
     position: relative;
     display: grid;
     margin: auto;
-    width: 900px;
+    width: 600px;
     grid-template-columns: 50% 50%;
 }
 
@@ -64,6 +64,7 @@
     border:none;
     padding: 5px;
     border-radius: 5px;
+    
 }
 
 .conte3 select{
@@ -78,17 +79,25 @@
     padding: 9px;
 }
 
-.camposformg{
+.cajasexodash{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
     width: 100px;
-    padding: 20px;
+}
+
+.cajasexodash input{
+    margin-left: 20px;
+
 }
 
 .conte4{
     margin: 20px;
-    margin-left: 250px;
+    margin-left: 270px;
     display:block;
+}
+
+.conte4 input{
+    margin-right: 10px;
 }
 
 .conte4 a{

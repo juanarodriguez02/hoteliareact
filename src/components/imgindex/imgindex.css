@@ -1,0 +1,16 @@
+.conteimg{
+    position: relative;
+    display: inline-block;
+}
+
+.indexi{
+    width: 100%;
+}
+
+.contetexto{
+    position: absolute;
+    top: 27rem;
+    left: 4rem;
+    color: var(--blanco);
+    background-color: rgba(0, 0, 0, 0.26);
+}

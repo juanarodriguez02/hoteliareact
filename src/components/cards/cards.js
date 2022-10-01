@@ -1,4 +1,5 @@
 import foto from './foto1.jpg'
+import './cards.css'
 
 function Cards() {
     return (

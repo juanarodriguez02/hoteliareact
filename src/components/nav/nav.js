@@ -1,4 +1,5 @@
 import logo from './Hotelia horizontal blanco.svg';
+import'./nav.css';
 
 function Nav() {
     return (

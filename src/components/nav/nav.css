@@ -1,0 +1,49 @@
+/*========ESTILOS NAV========*/
+nav{
+    display: flex;
+    flex-direction: row; /*se cambia la posición de los elementos*/
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--negro2);
+}
+
+.logo{
+    padding: 1rem;
+}
+
+.logo img{
+    width: 100%;
+    max-width: 180px;
+}
+
+.logo i{ /*se oculta el ícono bars del menú hamburguesa*/
+    display: none;
+}
+
+.menu{
+    background-color: var(--negro2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.item:hover{
+    background-color: #0b3860bd;
+    height: 40px;
+}
+
+.menu-hr{ /*se oculta la barra de división*/
+    display: none;
+}
+
+.navbar-button{
+    background-color: #0b3860bd;
+    color: #fff;
+    height: 40px;
+}  

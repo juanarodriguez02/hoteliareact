@@ -1,4 +1,3 @@
-
 function Form() {
     return (
         <form class="conte2">
@@ -41,20 +40,20 @@ function Form() {
                         <input type="date" id="fechana" /> 
                     </label>
                 </div>
- 
+
                 <div class="camposform">
-                    <label for="genero">Género
-                        <div>
-                            <input type="radio" id="genero" />Mujer
-                            <input type="radio" id="genero" />Hombre
-                            <input type="radio" id="genero" />Otro 
-                        </div>
-                    </label> 
+                    <label class="TdD">Genero
+                        <span class="cajasexodash">
+                            <input type="radio" value="mujer"/>Mujer
+                            <input type="radio" value="hombre"/>Hombre
+                            <input type="radio" value="Otro"/>Otro
+                        </span>    
+                    </label>
                 </div>
 
                 <div class="camposform">
-                    <label for="correo">Email
-                        <input type="email" id="correo" />
+                    <label for="correo">Email <br/>
+                        <input type="email" id="correo"/>
                     </label> <br />
                 </div>
 
@@ -135,17 +134,5 @@ function Form() {
         </form>
     );
 }
-
-const abrir = document.getElementById('abrir');
-const modal_container = document.getElementById('modal_container');
-const cerrar = document.getElementById('cerrar');
-
-abrir.addEventListener('click', () => {
-    modal_container.classList.add('show');
-});
-
-cerrar.addEventListener('click', () => {
-    modal_container.classList.remove('show');
-});
 
 export default Form;

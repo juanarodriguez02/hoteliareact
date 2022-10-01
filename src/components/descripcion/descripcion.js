@@ -1,5 +1,5 @@
 import imagendesc from './Hotelia negro vertical.svg'
-
+import './descripcion.css'
 function Descripcion() {
     return (
         <> 

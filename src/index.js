@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 
-import Home from './pages/home.js';
+import Home from './pages/home/home.js';
 import Formusu from './pages/formusuario/formusu';
 const root= createBrowserRouter([
   {
