@@ -7,8 +7,9 @@ import {
 } from "react-router-dom";
 
 import './index.css';
-import Dashboard from './pages/dashboard1/dashboard2';
+import Dashboard2 from './pages/dashboard1/dashboard2';
 import Home from './pages/home/Home.js';
+import Err404 from './pages/error404/error';
 
 
 const router = createBrowserRouter([
@@ -18,8 +19,12 @@ const router = createBrowserRouter([
 },
 {
   path:"/Dashboard",
-  element:<Dashboard/>
-}  
+  element:<Dashboard2/>,
+},
+{
+  path:"*",
+  element:<Err404 />
+}
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

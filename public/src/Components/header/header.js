@@ -1,7 +1,7 @@
 import'./Header.css'
 import habitacion from'./habitacion.jpg';
 import FondoBlanco from'./FondoBlanco.png';
-/*import hotelianegro from './hotelianegro.svg';*/
+import hotelianegro from './hotelianegro.svg';
  
 
 
@@ -16,6 +16,10 @@ function Header() {
       <div class="containerL">
             <div class="FondoBlanco">
               <img src={FondoBlanco}/>
+            </div>
+
+            <div class="Fondonegro">
+              <img src={hotelianegro}/>
             </div>
 
           <div class="icon">

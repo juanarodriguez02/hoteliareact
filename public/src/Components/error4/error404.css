@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(253, 251, 251);
+}
+.err{
+    background-color: #687eec;
+    width: 50%;
+    margin: 10%;
+    margin-left: 25%;
+
+}
+
+.imaguen{
+    margin: 5%;
+    margin-left: 26%;
+}
+
+.imagen1{
+    position: absolute;
+    margin-top: -20%;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+.imagen1:hover {-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+
+h1{
+    text-align: center;
+    margin: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
