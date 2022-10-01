@@ -12,7 +12,7 @@ function Cards() {
                 <div class="persona1">
             
                     <img src={foto} class="imgP1"/>
-                    <h4 class="nombre1">Diego Rodriguez</h4>
+                    <h4 class="nombre1">Diana Rodriguez</h4>
                     
                     <br/>
                     
@@ -30,7 +30,7 @@ function Cards() {
                 <div class="persona2">
             
                     <img src={foto} class="imgP1"/>
-                    <h4 class="nombre1">Diego Rodriguez</h4>
+                    <h4 class="nombre1">Diana Rodriguez</h4>
                     
                     <br/>
                     
@@ -49,7 +49,7 @@ function Cards() {
                 <div class="persona3">
             
                     <img src={foto} class="imgP1"/>
-                    <h4 class="nombre1">Diego Rodriguez</h4>
+                    <h4 class="nombre1">Diana Rodriguez</h4>
                     
                     <br/>
                     

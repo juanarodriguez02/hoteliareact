@@ -1,7 +1,7 @@
 /*========ESTILOS NAV========*/
 nav{
     display: flex;
-    flex-direction: row; /*se cambia la posición de los elementos*/
+    flex-direction: row;
     width: 100%;
     justify-content: space-between;
     background-color: var(--negro2);
@@ -16,7 +16,7 @@ nav{
     max-width: 180px;
 }
 
-.logo i{ /*se oculta el ícono bars del menú hamburguesa*/
+.logo i{ 
     display: none;
 }
 

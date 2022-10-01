@@ -1,4 +1,4 @@
-.features img{
+.imgfeatures {
     position: absolute;
     color: #fff;
     width: 100%;
@@ -35,12 +35,14 @@
     display: flex;
     text-align: center;
     flex-direction: row;
+    color: #fff;
 }
 
 .featureabajo{
     display: flex;
     text-align: center;
     flex-direction: row;
+    color: #fff;
 }
 
 .feature i{
