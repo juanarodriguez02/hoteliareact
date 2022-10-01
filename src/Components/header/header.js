@@ -3,8 +3,6 @@ import habitacion from'./habitacion.jpg';
 import FondoBlanco from'./FondoBlanco.png';
 import hotelianegro from './hotelianegro.svg';
  
-
-
 function Header() {
     return (
       <body class="body">
@@ -34,7 +32,7 @@ function Header() {
   
           <button  class="botonL"><a class="botonLTexto" href="/Dashboard">Ingresar</a></button>
           <span class="cuentaL">¿No tienes una cuenta?</span>
-          <a href="" class="textL">Registrate aqui</a>
+          <a href="/formusuario" class="textL">Registrate aqui</a>
       </div>
   </body>
   

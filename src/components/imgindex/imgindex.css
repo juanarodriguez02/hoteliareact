@@ -1,0 +1,18 @@
+.conteimg{
+    position: relative;
+    display: inline-block;
+}
+
+.indexi{
+    width: 100%;
+}
+
+.contetexto{
+    width: 700px;
+    height: 150px;
+    position: absolute;
+    top: 23rem;
+    left: 4rem;
+    color: var(--blanco);
+    background-color: rgba(0, 0, 0, 0.26);
+}

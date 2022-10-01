@@ -1,0 +1,24 @@
+
+.titulomapa{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.mapa{
+    justify-content: center;
+    text-align: center;
+}
+
+.direccion{
+    color: #000;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.hr{
+    width: 650px;
+    margin-left: 21rem;
+    background-color: var(--azulnegro);
+}

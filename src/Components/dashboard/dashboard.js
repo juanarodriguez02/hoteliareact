@@ -1,8 +1,8 @@
-import'./dashboard.css';
+import './dashboard.css';
 import fondodash from'./fondodash.jpg';
 import fondoAzul from'./fondoAzul.jpeg';
 import persona2 from'./persona2.png';
-import Hoteliahorizontalblanco from './Hoteliahorizontalblanco.svg';
+import hotelialogo from './Hoteliahorizontalblanco.svg';
 
 function Dashboard() {
     return(
@@ -21,7 +21,7 @@ function Dashboard() {
                     </div>
 
                     <div class="Hoteliahorizontalblnaco">
-                        <img src={Hoteliahorizontalblanco}/>
+                        <img src={hotelialogo}/>
                     </div>
                     
                     <p class="Textodash">
